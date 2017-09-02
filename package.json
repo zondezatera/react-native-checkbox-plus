@@ -1,22 +1,26 @@
 {
   "name": "react-native-checkbox-plus",
-  "version": "0.0.1",
-  "description": "-",
+  "version": "0.1.0",
+  "description": "Simple customizable react-native checkbox",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zondezatera/react-native-checkbox-plus.git"
   },
   "keywords": [
-    "checkbox"
+    "checkbox",
+    "react",
+    "react native"
   ],
   "author": "Kitti Pariyaakkarakul",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zondezatera/react-native-checkbox-plus/issues"
   },
-  "homepage": "https://github.com/zondezatera/react-native-checkbox-plus#readme"
+  "homepage": "https://github.com/zondezatera/react-native-checkbox-plus#readme",
+  "peerDependencies": {
+    "react-native": ">=0.46.0",
+    "react": "16.0.0-alpha.12",
+    "prop-types": "^15.5.8"
+  }
 }
